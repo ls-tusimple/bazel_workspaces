@@ -3,6 +3,5 @@ cc_binary(
     srcs = ["hello-world.cc"],
     deps = [
         "//lib:hello-greet",
-        "//lib:log",
     ],
 )
